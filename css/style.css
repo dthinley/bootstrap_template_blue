@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html,
+body{
+	
+} 
+
+ .header {
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  min-height: 850px;
+  position: relative;
+}
+
+.sub-title{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+p{
+	color: #fff;
+	font-size: 14px;
+    line-height: 1.5em;
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 850px;
+}
+
+.top-bar{
+	background-color: rgba(0,0,0,0.5);
+	padding: 2.5% 0;
+}
+
+.logo{
+	float: left;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 800;
+	margin: 0px;
+}
+
+.main-nav ul{
+	float: right;
+	list-style: none;
+}
+
+.main-nav ul li{
+	margin-top: 25px;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.main-nav ul li a{
+	color: #fff;
+	padding: 24px;
+
+}
+
+.wrapper{
+	margin-top: 15%;
+	color: #fff;
+}
+
+#services{
+	background-color: #4bcaff;
+	padding: 6% 0;
+}
+
+.services-icon{
+	color: #fff;
+	font-size: 35px;
+	margin-top: 25px;
+
+}
+
+.service-title{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+.port{
+	width: 25%;
+	float: left;
+
+}
+
+.port img{
+	width: 100%;
+	padding-bottom: 20px;
+
+}
+
+#feature{
+	background: #515f67;
+    padding: 6% 0;
+}
+
+
+.twitter-bg{
+	background-color: #4bcaff;
+	padding: 5% 0;
+
+
+
+}
+
+.who-bg{
+	background: url('../img/bg.jpg') no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+    padding: 6% 0;
+	
+}
+
+.testimonials-bg{
+	background-color: #8a8a88;
+	padding: 6% 0;
+}
+
+#contact{
+	color: #fff;
+	background: url('../img/bg.jpg') no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+    padding: 6% 0;
+}
