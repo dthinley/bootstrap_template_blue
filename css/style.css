@@ -8,12 +8,6 @@ body{
 	
 } 
 
- .header {
-  background: url('../img/bg.jpg') no-repeat;
-  background-size: cover;
-  min-height: 850px;
-  position: relative;
-}
 
 .sub-title{
 	color: #fff;
@@ -24,6 +18,53 @@ p{
 	color: #fff;
 	font-size: 14px;
     line-height: 1.5em;
+    padding-top: 20px;
+}
+
+/***********************************
+************************************
+SECTION BACKGROUND
+************************************
+***********************************/
+
+.twitter-bg{
+	background-color: #4bcaff;
+	padding: 5% 0;
+
+}
+
+.who-bg{
+	background: linear-gradient(rgba(50,90,80,.5), rgba(50,90,80,.2)),url(../img/who.jpeg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height: 450px;
+    padding: 4% 0;
+	
+}
+
+.testimonials-bg{
+	background-color: #8a8a88;
+	padding: 6% 0;
+}
+
+#contact{
+	color: #fff;
+	background: linear-gradient(rgba(250,85,20,0), rgba(250,85,20,.2)),url('../img/contact.jpeg') no-repeat;
+	background-position: center;
+    background-size: cover;
+    padding: 6% 0;
+}
+
+/***********************************
+************************************
+HEADER
+************************************
+***********************************/
+ .header {
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  min-height: 850px;
+  position: relative;
 }
 
 .bg-color {
@@ -67,6 +108,12 @@ p{
 	color: #fff;
 }
 
+/***********************************
+************************************
+SERVICES
+************************************
+***********************************/
+
 #services{
 	background-color: #4bcaff;
 	padding: 6% 0;
@@ -85,6 +132,12 @@ p{
 }
 
 
+/***********************************
+************************************
+PORTFOLIO
+************************************
+***********************************/
+
 .port{
 	width: 25%;
 	float: left;
@@ -97,37 +150,76 @@ p{
 
 }
 
+
+/***********************************
+************************************
+FEATURE
+************************************
+***********************************/
 #feature{
 	background: #515f67;
     padding: 6% 0;
 }
 
+ul.social {
+    padding: 0;
+    list-style: none;
+}
 
-.twitter-bg{
+ul.social li {
+    background: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+ul.social li:hover{
 	background-color: #4bcaff;
-	padding: 5% 0;
-
-
+	cursor: pointer;
 
 }
-
-.who-bg{
-	background: url('../img/bg.jpg') no-repeat;
-	background-position: center;
-    background-size: 100% 100%;
-    padding: 6% 0;
-	
-}
-
-.testimonials-bg{
-	background-color: #8a8a88;
-	padding: 6% 0;
-}
-
-#contact{
+i.fab.fa-twitter.twitter-icon{
 	color: #fff;
-	background: url('../img/bg.jpg') no-repeat;
-	background-position: center;
-    background-size: 100% 100%;
+	float: right;
+	font-size: 25px;
+	margin-top: -40px;
+}
+
+i.fas.fa-quote-right.quote-mark{
+	color: #fff;
+	float: right;
+	font-size: 25px;
+	margin-top: -40px;
+}
+
+.footer-bottom {
+    background: #353f47;
     padding: 6% 0;
 }
+
+
+ul.footer-nav {
+    float: left;
+    list-style: none;
+    color: #536169;
+    padding: 0;
+}
+
+ul.footer-nav li{
+	display: inline-block;
+	padding: 20px;
+}
+.copy{
+	float: right
+}
+
+.copy p {
+    color: #536169;
+    font-size: 0.85em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
