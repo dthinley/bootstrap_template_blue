@@ -108,6 +108,10 @@ HEADER
 	color: #fff;
 }
 
+i.fa.fa-angle-down{
+	font-size: 50px;
+}
+
 /***********************************
 ************************************
 SERVICES
@@ -195,6 +199,82 @@ i.fas.fa-quote-right.quote-mark{
 	margin-top: -40px;
 }
 
+
+/***********************************
+************************************
+CONTACT
+************************************
+***********************************/
+
+p.cotact-form{
+	margin-bottom: 8%;
+}
+
+.commentform label, .contactform_bottom label {
+    display: block;
+    font-size: 0.95em;
+    color: #fff;
+   	text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.commentform input[type="text"] {
+    padding: 20px;
+    width: 85%;
+    color: #FFF;
+    font-size: 0.85em;
+    border: 2px solid #fff;
+    background: none;
+    outline: none;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+}
+
+p.m_13 {
+    color: #fff;
+    line-height: 1.8em;
+    font-size: 0.85em;
+    margin-bottom: 8%;
+    margin-top: 4%;
+ }
+
+.contactform_bottom {
+    margin: 0 15px;
+    padding-top: 2%;
+}
+
+textarea{
+	transition: none;
+    background: transparent !important;
+    border: 2px solid #fff;
+    display: block;
+    width: 90%;
+}
+
+.col-md-6.commentform{
+	padding-right: 0;
+    padding-left: 0;
+}
+
+.address p{
+	padding: 0;
+}
+
+/***********************************
+************************************
+FOOTER
+************************************
+***********************************/
+
 .footer-bottom {
     background: #353f47;
     padding: 6% 0;
@@ -212,6 +292,7 @@ ul.footer-nav li{
 	display: inline-block;
 	padding: 20px;
 }
+
 .copy{
 	float: right
 }
