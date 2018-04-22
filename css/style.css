@@ -304,3 +304,35 @@ ul.footer-nav li{
     text-transform: uppercase;
 }
 
+
+
+.category{
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.category_items{
+	float: left;
+	width: 20%;
+	background: black;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.category_items:hover{
+	background-color: blue;
+	color: white;
+}
+
+.project_list{
+	transition: all 0.4s ease-in-out;
+}
+
+.hide{
+	transform: scale(0);
+	width: 0;
+	padding: 0;
+}
