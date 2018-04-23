@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html,
+body{
+	
+} 
+
+
+.sub-title{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+p{
+	color: #fff;
+	font-size: 14px;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+
+/***********************************
+************************************
+SECTION BACKGROUND
+************************************
+***********************************/
+
+.twitter-bg{
+	background-color: #4bcaff;
+	padding: 5% 0;
+
+}
+
+.who-bg{
+	background: linear-gradient(rgba(50,90,80,.5), rgba(50,90,80,.2)),url(../img/who.jpeg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height: 450px;
+    padding: 4% 0;
+	
+}
+
+.testimonials-bg{
+	background-color: #8a8a88;
+	padding: 6% 0;
+}
+
+#contact{
+	color: #fff;
+	background: linear-gradient(rgba(250,85,20,0), rgba(250,85,20,.2)),url('../img/contact.jpeg') no-repeat;
+	background-position: center;
+    background-size: cover;
+    padding: 6% 0;
+}
+
+/***********************************
+************************************
+HEADER
+************************************
+***********************************/
+ .header {
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  min-height: 850px;
+  position: relative;
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 850px;
+}
+
+.top-bar{
+	background-color: rgba(0,0,0,0.5);
+	padding: 2.5% 0;
+}
+
+.logo{
+	float: left;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 800;
+	margin: 0px;
+}
+
+.main-nav ul{
+	float: right;
+	list-style: none;
+}
+
+.main-nav ul li{
+	margin-top: 25px;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.main-nav ul li a{
+	color: #fff;
+	padding: 24px;
+
+}
+
+.wrapper{
+	margin-top: 15%;
+	color: #fff;
+}
+
+i.fa.fa-angle-down{
+	font-size: 50px;
+}
+
+/***********************************
+************************************
+SERVICES
+************************************
+***********************************/
+
+#services{
+	background-color: #4bcaff;
+	padding: 6% 0;
+}
+
+.services-icon{
+	color: #fff;
+	font-size: 35px;
+	margin-top: 25px;
+
+}
+
+.service-title{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/***********************************
+************************************
+PORTFOLIO
+************************************
+***********************************/
+.port img{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.project_list{
+	float: left;
+	padding-bottom: 30px;
+}
+
+
+.category{
+	padding: 20px 0;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+
+	
+}
+
+.category_items{
+	float: left;
+	width: 15%;
+	border: 1px solid #4bcaff;
+	padding: 20px 0;
+	margin-right: 2%;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	color: #000;
+	text-transform: uppercase;
+
+
+}
+
+.category_items:hover{
+	background-color: #4bcaff;
+	
+}
+
+
+/***********************************
+************************************
+FEATURE
+************************************
+***********************************/
+#feature{
+	background: #515f67;
+    padding: 6% 0;
+}
+
+ul.social {
+    padding: 0;
+    list-style: none;
+}
+
+ul.social li {
+    background: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+ul.social li:hover{
+	background-color: #4bcaff;
+	cursor: pointer;
+
+}
+i.fab.fa-twitter.twitter-icon{
+	color: #fff;
+	float: right;
+	font-size: 25px;
+	margin-top: -40px;
+}
+
+i.fas.fa-quote-right.quote-mark{
+	color: #fff;
+	float: right;
+	font-size: 25px;
+	margin-top: -40px;
+}
+
+
+/***********************************
+************************************
+CONTACT
+************************************
+***********************************/
+
+p.cotact-form{
+	margin-bottom: 8%;
+}
+
+.commentform label, .contactform_bottom label {
+    display: block;
+    font-size: 0.95em;
+    color: #fff;
+   	text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.commentform input[type="text"] {
+    padding: 20px;
+    width: 85%;
+    color: #FFF;
+    font-size: 0.85em;
+    border: 2px solid #fff;
+    background: none;
+    outline: none;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+}
+
+p.m_13 {
+    color: #fff;
+    line-height: 1.8em;
+    font-size: 0.85em;
+    margin-bottom: 8%;
+    margin-top: 4%;
+ }
+
+.contactform_bottom {
+    margin: 0 15px;
+    padding-top: 2%;
+}
+
+textarea{
+	transition: none;
+    background: transparent !important;
+    border: 2px solid #fff;
+    display: block;
+    width: 90%;
+}
+
+.col-md-6.commentform{
+	padding-right: 0;
+    padding-left: 0;
+}
+
+.address p{
+	padding: 0;
+}
+
+/***********************************
+************************************
+FOOTER
+************************************
+***********************************/
+
+.footer-bottom {
+    background: #353f47;
+    padding: 6% 0;
+}
+
+
+ul.footer-nav {
+    float: left;
+    list-style: none;
+    color: #536169;
+    padding: 0;
+}
+
+ul.footer-nav li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.copy{
+	float: right
+}
+
+.copy p {
+    color: #536169;
+    font-size: 0.85em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
