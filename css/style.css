@@ -141,17 +141,45 @@ SERVICES
 PORTFOLIO
 ************************************
 ***********************************/
-
-.port{
-	width: 25%;
+.port img{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.project_list{
 	float: left;
+	padding-bottom: 30px;
+}
+
+
+.category{
+	padding: 20px 0;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+
+	
+}
+
+.category_items{
+	float: left;
+	width: 15%;
+	border: 1px solid #4bcaff;
+	padding: 20px 0;
+	margin-right: 2%;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	color: #000;
+	text-transform: uppercase;
+
 
 }
 
-.port img{
-	width: 100%;
-	padding-bottom: 20px;
-
+.category_items:hover{
+	background-color: #4bcaff;
+	
 }
 
 
@@ -306,33 +334,3 @@ ul.footer-nav li{
 
 
 
-.category{
-	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-.category_items{
-	float: left;
-	width: 20%;
-	background: black;
-	padding: 20px 0;
-	text-align: center;
-	font-size: 15px;
-
-}
-
-.category_items:hover{
-	background-color: blue;
-	color: white;
-}
-
-.project_list{
-	transition: all 0.4s ease-in-out;
-}
-
-.hide{
-	transform: scale(0);
-	width: 0;
-	padding: 0;
-}
